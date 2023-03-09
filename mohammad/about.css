@@ -1,0 +1,139 @@
+*{
+    font-family: sans-serif;
+    color: whitesmoke;
+    background-color: #01263f;
+    font-size: large;
+    
+}
+.navigation{
+    font-size:larger;
+    /* padding-left: 100px; */
+    display : flex;
+    flex-direction: row;
+    justify-content:  center;
+    align-items: center;
+    border: 5px double;
+    list-style: none;
+    background-color:#01263f;
+    gap: 30px;
+    padding : 6px;
+  
+  }
+  .none{
+    list-style: none;
+  }
+  
+  .nav{
+    border : 1px solid white;
+    color : green;
+    padding : 2px;
+    border-radius: 5px;
+    background-color : antiquewhite
+    /* border: 5px double;
+    position:relative;
+    bottom: 10px; */
+  }
+.information{
+    display : flex;
+    flex-direction: row;
+    justify-content:  center;
+    align-items: center;
+    position: relative;
+    padding-left: 20%;
+}
+.footer{
+    display : flex;
+    flex-direction: column;
+    justify-content:  center;
+    align-items: center;
+    /* margin-right: 80%; */
+}
+
+a{
+    color:gold;
+    font-size: larger;
+}
+
+/* .tahsin{
+    padding-left: 400px;
+    justify-content:  center;
+}
+
+.freetime{
+    padding-left: 500px;
+}    */
+
+ol{
+    list-style-type: decimal;
+}
+
+/* .cricket{
+    padding-left: 480px;
+    padding-top: 10px;
+}
+
+.tedtalk{
+    padding-left: 450px;
+    padding-top: 10px;
+}
+
+audio{
+    padding-left: 500px;
+    padding-top: 10px;
+}
+.youtube{
+    padding-left: 400px;
+} */
+
+
+/* .foodVlog{
+    padding:10px 0px  0px  375px;
+} */
+
+.fvideo{
+    padding-left:8%;
+}
+
+/* .podcast{
+    padding-left:480px;
+}
+
+.docs{
+    padding-left:450px;
+    padding-top: 10px;
+} */
+.favactors{
+    padding-left:500px;
+    padding-top: 10px;
+}
+/* .actors{
+    padding-left:300px;
+    padding-top: 10px;
+} */
+
+
+.table{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    /* display : flex; */
+    /* flex-direction: column; */
+    /* justify-content:  center;
+    align-items: center; */
+    /* position: relative; */
+    /* left: 36%; */
+    /* background-color: white; */
+}
+/* .countries{
+    padding-left: 280px;
+}
+.gardening{
+    padding-left: 300px;
+
+}
+.latin{
+    padding-left: 350px;
+} */
+
+.emailForFooter{
+    margin-top: -30px;
+}
