@@ -1,0 +1,115 @@
+*{
+    font-family: sans-serif;
+    color: whitesmoke;
+    background-color: black;
+    font-size: large;
+    
+}
+.navigation{
+    font-size:larger;
+    padding-left: 600px;
+    border: 5px double;
+    list-style: none;
+    background-color:black;
+}
+.none{
+    list-style: none;
+}
+
+.nav1{
+    border: 5px double;
+    position:relative;
+    bottom: 10px;
+    
+}
+
+.nav2{
+    border: 5px double;
+    position:relative;
+    top: 10px;
+}
+
+a{
+    color:gold;
+    font-size: larger;
+}
+
+.tahsin{
+    padding-left: 400px;
+}
+
+.freetime{
+    padding-left: 500px;
+}   
+
+ol{
+    list-style-type: decimal;
+}
+
+.cricket{
+    padding-left: 480px;
+    padding-top: 10px;
+}
+
+.tedtalk{
+    padding-left: 450px;
+    padding-top: 10px;
+}
+
+audio{
+    padding-left: 500px;
+    padding-top: 10px;
+}
+.youtube{
+    padding-left: 400px;
+}
+
+
+.foodVlog{
+    padding:10px 0px  0px  375px;
+}
+
+.fvideo{
+    padding-left:400px;
+}
+
+.podcast{
+    padding-left:480px;
+}
+
+.docs{
+    padding-left:450px;
+    padding-top: 10px;
+}
+.favactors{
+    padding-left:500px;
+    padding-top: 10px;
+}
+/* .actors{
+    padding-left:300px;
+    padding-top: 10px;
+} */
+
+table{
+    position: relative;
+    left: 460px;
+    background-color: white;
+}
+.table{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+}
+.countries{
+    padding-left: 280px;
+}
+.gardening{
+    padding-left: 300px;
+
+}
+.latin{
+    padding-left: 350px;
+}
+footer{
+    padding-left: 1100px;
+}

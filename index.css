@@ -1,0 +1,79 @@
+*{
+    font-family:sans-serif;
+    background-color: black;
+}
+
+.navigation{
+    font-size:larger;
+    padding-left: 600px;
+    border: 5px double;
+    background-color:black;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.nav1{
+    border: 5px double;
+    position:relative;
+    bottom: 10px;
+}
+
+.nav2{
+    border: 5px double;
+    position:relative;
+    top: 10px;
+}
+
+a{
+    color:gold;
+    font-size: larger;
+}
+
+#mypic{
+    position: relative;
+    left: 600px;
+    border: 5px solid white;
+    border-radius: 100%;
+    margin: 10px;
+    padding-bottom:3px;
+}
+.portfolio{
+    position: relative;
+    left: 500px;
+}
+.tahsin{
+    position: relative;
+    left: 350px;  
+}
+.compsci{
+    position: relative;
+    left: 360px;  
+ 
+}
+.dal{
+    padding-left: 450px;
+    position: relative;
+    top: 30px;
+}
+.dalpic{
+    position: relative;
+    left: 530px;
+    top:50px;
+    border: 5px double white;
+    border-radius: 100%;
+}
+.info{
+    position:relative;
+    left: 380px;
+    top: 70px;
+}
+footer{
+    position: relative;
+    left: 1150px;
+    top: 70px;
+}
+h1,h2,h3,p,li{
+    color: white;
+}
