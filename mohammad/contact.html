@@ -11,15 +11,19 @@
         href="https://media.istockphoto.com/id/1140092103/vector/vector-logo-letter-t-double-wing.jpg?s=612x612&w=0&k=20&c=RQ70pc4i9p6F4VazKq0CdtYelGfczuXRnJpz9LwMtKk=">
 </head>
 
-<body>
+<body class="overall">
 
 
     <main>
+
 
         <ul class="navigation">
             <li class="none"><a class="nav" href="index.html">HOME</a></li>
             <li class="none"><a class="nav" href="contact.html">CONTACT</a></li>
             <li class="none"><a class="nav" href="about.html">About</a></li>
+            <button id="red">red</button>
+            <button id="blue">blue</button>
+            <button id="yellow">yellow</button>
         </ul>
 
 
@@ -53,6 +57,17 @@
 
                 <button class="submitBtn" type="submit">Submit</button>
             </form>
+
+            <div id="output"
+                style="color:#ffffff; margin-top:30px; padding: 5px; border:1px solid darkgrey; border-radius: 7px;">
+            </div>
+
+            <div id="output1"
+                style="color:#ffffff; margin-top:30px; padding: 5px; border:1px solid darkgrey; border-radius: 7px;">
+            </div>
+            <button id="clearBtn" style="background-color:aqua; padding: 4px; border-radius: 3px; margin-top: 20px">
+                clear
+            </button>
         </div>
 
 
@@ -63,6 +78,47 @@
             <h6 class="emailForFooter">Email:techsupport@index.com</h6>
         </div>
     </footer>
+
+    <script>
+
+        const form = document.querySelector('form');
+        const output = document.getElementById('output');
+
+        const nameInput = document.getElementById('name');
+        let nameValue = nameInput.value;
+        let name = "";
+        nameInput.addEventListener('input', function (e) {
+
+            output1.textContent = `${e.target.value}`;
+        })
+
+        form.addEventListener('submit', function (e) {
+
+            e.preventDefault();
+            //const nameInput = document.getElementById('name');
+            const emailInput = document.getElementById('email');
+            const messageInput = document.getElementById('message');
+
+
+            const emailValue = emailInput.value;
+            let messageValue = messageInput.value;
+
+            // messageValue = 'delete message';
+
+
+
+            // Update the output element with the input value
+            output.textContent = `Hello, ${nameValue}! ${emailValue} , ${messageValue}`;
+        });
+
+        clearBtn.addEventListener('click', function () {
+
+            output1.textContent = '';
+        });
+    </script>
+</body>
+
+
 </body>
 <br>
 
