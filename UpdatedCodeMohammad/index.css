@@ -1,0 +1,161 @@
+*{
+    font-family:sans-serif;
+    background-color: #01263f;
+    background-color:;
+}
+
+.navigation{
+    font-size:larger;
+    /* padding-left: 100px; */
+    display : flex;
+    flex-direction: row;
+    justify-content:  center;
+    align-items: center;
+    border: 5px double;
+    list-style: none;
+    background-color:#01263f;
+    gap: 30px;
+    padding : 6px;
+  
+  }
+  .none{
+    list-style: none;
+  }
+  
+  .nav{
+    border : 1px solid white;
+    color : green;
+    padding : 2px;
+    border-radius: 5px;
+    background-color : antiquewhite
+    /* border: 5px double;
+    position:relative;
+    bottom: 10px; */
+  }
+  .information{
+    display : flex;
+    flex-direction: column;
+    justify-content:  center;
+    align-items: center;
+    position: relative;
+    /* padding-left: 20%; */
+}
+a{
+    color:gold;
+    font-size: larger;
+}
+
+#mypic{
+    position: relative;
+    /* left: 600px; */
+    border: 5px solid white;
+    border-radius: 100%;
+    margin: 10px;
+    padding-bottom:3px;
+}
+.portfolio{
+    position: relative;
+    left: 500px;
+}
+.tahsin{
+    position: relative;
+    left: 350px;  
+}
+.compsci{
+    position: relative;
+    /* left: 360px;   */
+ 
+}
+.dal{
+    /* padding-left: 450px; */
+    /* position: relative;
+    top: 30px; */
+}
+.dalpic{
+    position: relative;
+    /* left: 130px; */
+    top:50px;
+    border: 5px double white;
+    border-radius: 100%;
+    list-style: none;
+}
+.dalPicture{
+    display : flex;
+    flex-direction: column;
+    justify-content:  center;
+    align-items: center;
+    /* position: relative; */
+    list-style: none;
+}
+.info{
+    position:relative;
+    /* left: 380px; */
+    top: 70px;
+}
+
+h1,h2,h3,p,li{
+    color: white;
+}
+
+.emailForFooter{
+    margin-top: -20px;
+}
+.footer{
+  display : flex;
+  flex-direction: column;
+  justify-content:  center;
+  align-items: center;
+  color :white;
+  margin-top : 100px;
+  
+}
+/* Media query for screens between 768px and 1023px */
+@media only screen and ( min-width: 1023px) {
+    .first-div{
+        display : flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    #mypic{
+        position: relative;
+    /* left: 15%; */
+    border: 5px solid white;
+    border-radius: 100%;
+    /* margin: 10px; */
+    margin-left: 20%;
+    padding-bottom:3px;
+    }
+
+}
+
+
+
+/* Media query for screens smaller than 768px */
+@media only screen and (max-width: 767px) {
+    
+    .first-div{
+        display : flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #mypic{
+        /*  */
+    }
+}
+/* Media query for screens smaller than 768px */
+@media only screen and (max-width: 1000px) and (min-width: 767px) {
+    /* 994px */
+    .first-div{
+        display : flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    #mypic{
+        margin-left: 15%;
+        /* margin-top: 5%; */
+        /* margin-left: 70%; */
+    }
+}
