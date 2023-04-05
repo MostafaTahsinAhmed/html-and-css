@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="contact.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="icon" type="image/x-icon"
+        href="https://media.istockphoto.com/id/1140092103/vector/vector-logo-letter-t-double-wing.jpg?s=612x612&w=0&k=20&c=RQ70pc4i9p6F4VazKq0CdtYelGfczuXRnJpz9LwMtKk=">
+</head>
+
+<body class="overall" id="overall">
+
+
+    <main>
+
+
+        <ul class="navigation">
+            <li class="none"><a class="nav" href="index.html">HOME</a></li>
+            <li class="none"><a class="nav" href="contact.html">CONTACT</a></li>
+            <li class="none"><a class="nav" href="about.html">About</a></li>
+            <button id="red">Green</button>
+            <button id="blue">Blue</button>
+            <button id="yellow">Parrot</button>
+        </ul>
+
+
+        <div class="information">
+            <img class="contactMe"
+                src="https://t4.ftcdn.net/jpg/00/39/78/31/360_F_39783164_PHcuAuh0tr1gH6wzk1PYpWlfc42PcGur.jpg"
+                alt="contactme">
+            <div class="greeting">
+                <h6 class="text-greeting">Write anything to me... For more details <a href="#">www.tahsin.com</a></h6>
+            </div>
+            <!-- class="contactme"  id="contactme" -->
+            <h1 class="hello">Don't be shy to say hello</h1><br>
+            <div class="contacts">
+                <ol>
+                    <ul>
+                        <li class="list">Email:tahsin98@gmail.com</li><br>
+                        <li class="list">Phone:+1(272)8178188</li><br>
+                        <li class="list">Likedin:<a
+                                href="https://www.linkedin.com/in/mostafa-tahsin-ahmed-3465a5263/">Drop by and
+                                check
+                                my achivements.</a></li>
+                    </ul>
+                </ol>
+            </div>
+
+
+
+            <form class="formOuter">
+                <label class="nameLabel" for="name">Name:</label>
+                <input type="text" id="name" name="name">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+
+                <button class="submitBtn" type="submit">Submit</button>
+            </form>
+            <div id="myDiv">
+                <h6 style="color:#ffffff; text-align: center;">Your Post Has been submitted !</h6>
+
+            </div>
+
+            <div id="output"
+                style="color:#ffffff; margin-top:30px; padding: 5px; border:1px solid darkgrey; border-radius: 7px;">
+            </div>
+
+            <div id="output1"
+                style="color:#ffffff; margin-top:30px; padding: 5px; border:1px solid darkgrey; border-radius: 7px;">
+            </div>
+            <button id="clearBtn" style="background-color:aqua; padding: 4px; border-radius: 3px; margin-top: 20px">
+                clear
+            </button>
+        </div>
+
+
+    </main>
+    <footer>
+        <div class="footer">
+            <h6>If any errors please reach out</h6>
+            <h6 class="emailForFooter">Email:techsupport@index.com</h6>
+        </div>
+    </footer>
+
+    <!-- <script>
+
+        const form = document.querySelector('form');
+        const output = document.getElementById('output');
+
+        const nameInput = document.getElementById('name');
+        let nameValue = nameInput.value;
+
+        const emailInput = document.getElementById('email');
+        let emailValue = emailInput.value;
+
+        const messageInput = document.getElementById('message');
+        let messageValue = messageInput.value;
+
+
+        let name = "";
+        nameInput.addEventListener('input', function (e) {
+
+            output1.textContent = `${e.target.value}`;
+        })
+
+        form.addEventListener('submit', function (e) {
+
+            e.preventDefault();
+
+
+
+            nameValue = nameInput.value;
+            emailValue = emailInput.value;
+            messageValue = messageInput.value;
+
+
+            // Update the output element with the input value
+            output.textContent = `Hello, ${nameValue}! ${emailValue} , ${messageValue}`;
+            if (nameValue.length < 3) {
+
+                alert("Name is too small !  ");
+            } else if (nameValue.length > 2 && nameValue.length < 7) {
+                alert("Please give name greater than 7th length !  ");
+            }
+
+        });
+
+        clearBtn.addEventListener('click', function () {
+
+            output1.textContent = '';
+            messageInput.value = '';
+            emailInput.value = '';
+            nameInput.value = '';
+        });
+
+
+
+        // Select the element and button elements
+        const overallDiv = document.getElementById('overall');
+        const redButton = document.getElementById('red');
+        const blueButton = document.getElementById('blue');
+        const yellowButton = document.getElementById('yellow');
+
+        redButton.addEventListener('click', function () {
+            overallDiv.style.backgroundColor = 'teal';
+        });
+
+        blueButton.addEventListener('click', function () {
+            overallDiv.style.backgroundColor = '#01263f';
+        });
+
+        yellowButton.addEventListener('click', function () {
+            overallDiv.style.backgroundColor = 'darkolivegreen';
+        });
+
+    </script> -->
+    <script src="./contact.js"></script>
+</body>
+
+
+<!-- </body> -->
+<br>
+
+
+
+</html>
